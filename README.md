@@ -1,6 +1,8 @@
 cazart
 ======
 
+[![Build Status](https://travis-ci.com/woodruffw/cazart.svg?branch=master)](https://travis-ci.com/woodruffw/cazart)
+
 *Flask + schema = cazart!*
 
 **cazart** is a small helper for writing schematized JSON endpoints with Flask. It rolls
