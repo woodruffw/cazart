@@ -34,6 +34,7 @@ setup(
             "isort[pyproject]",
             "pytest",
             "coverage",
+            "twine",
         ]
     }
 )

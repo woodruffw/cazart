@@ -23,6 +23,11 @@ test:
 	. env/bin/activate && cd test && python -m coverage run -m pytest
 	. env/bin/activate && cd test && python -m coverage report -m --fail-under 100
 
+.PHONY: package
+package:
+	. env/bin/activate && python3 setup.py sdist
+	. env/bin/activate && twine upload --repository pypi dist/*
+
 .PHONY: edit
 edit:
 	$(EDITOR) $(ALL_PY_SRCS)
