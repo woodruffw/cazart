@@ -22,7 +22,7 @@ setup(
     packages=["cazart"],
     package_dir={"": "src"},
     platforms="any",
-    python_requires=">=3.5",
+    python_requires=">=3.6",
     install_requires=[
         "flask",
         "schema",

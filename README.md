@@ -9,7 +9,7 @@ for one-shot route and schema specification.
 
 ## Installation
 
-**cazart** requires Python 3.5 or newer.
+**cazart** requires Python 3.6 or newer.
 
 ```bash
 pip3 install cazart
