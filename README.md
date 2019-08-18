@@ -45,5 +45,5 @@ def cazart(res):
     return ("ok", 200)
 ```
 
-See the [examples](./examples) for full usage examples, including custom error handling
+See the [examples](./example) for full usage examples, including custom error handling
 and dispatching to different schemas on a route based on HTTP method.
