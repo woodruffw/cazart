@@ -1,7 +1,7 @@
 cazart
 ======
 
-[![Build Status](https://travis-ci.com/woodruffw/cazart.svg?branch=master)](https://travis-ci.com/woodruffw/cazart)
+[![Build Status](https://img.shields.io/github/workflow/status/woodruffw/cazart/CI/master)](https://github.com/woodruffw/cazart/actions?query=workflow%3ACI)
 
 *Flask + schema = cazart!*
 
