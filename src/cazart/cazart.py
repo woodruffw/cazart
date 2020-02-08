@@ -2,7 +2,7 @@ from functools import wraps
 
 from flask import Flask, request
 from schema import SchemaError
-from werkzeug import Local, LocalManager
+from werkzeug.local import Local, LocalManager
 
 _local = Local()
 _local_manager = LocalManager()
