@@ -12,7 +12,7 @@ with open("./README.md") as f:
 setup(
     name="cazart",
     version=version["__version__"],
-    license="MIT",
+    license="MIT with restrictions",
     author="William Woodruff",
     author_email="william@yossarian.net",
     description="Flask + Schema = Cazart!",
